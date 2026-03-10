@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Tests
+tests/
+test.db
+pytest.ini
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Database (we mount a volume instead)
+*.db
+
+# Environment
+.env
+
+# Docs
+README.md

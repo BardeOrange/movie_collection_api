@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Database
+*.db
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test database
+test.db
+
+# Data directory (Docker volume)
+data/

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    container_name: movie-collection-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./data/movies.db
+      - APP_NAME=Movie Collection API
+      - DEBUG=True
+      - SECRET_KEY=your-super-secret-key-change-this-later
+    restart: unless-stopped
