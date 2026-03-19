@@ -90,7 +90,7 @@ movie_collection_api/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/BardeOrange/movie_collection_api.git
-cd movie_catalog
+cd movie_collection_api
 ```
 
 2. Create virtual environment
@@ -107,8 +107,7 @@ pip install -r requirements.txt
 
 4. Set up environment variables
 ```bash
-cp .env.example .env
-# Edit .env with your settings
+In the file .env, change the secret key
 ```
 5. Run the server
 ```bash
