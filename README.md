@@ -4,7 +4,7 @@ A RESTful API built with FastAPI to manage a personal movie collection.
 Features JWT authentication, full CRUD operations, search & filtering,
 and comprehensive test coverage.
 
-![CI](https://github.com/BardeOrange/movie_catalog/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/BardeOrange/movie_collection_api/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.13%2B-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)
 ![License](https://img.shields.io/badge/License-FREE-green)
