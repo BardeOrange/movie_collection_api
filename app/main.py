@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-
 from app.config import settings
 from app.database import engine, Base
 from app.routers import movie, auth

@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
 from typing import Optional
-
 from app.models.movie import Movie
 from app.schemas.movie import MovieCreate, MovieUpdate
 

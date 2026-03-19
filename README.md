@@ -1,17 +1,17 @@
-# 🎬 Movie Collection API
+# Movie Collection API
 
 A RESTful API built with FastAPI to manage a personal movie collection.
 Features JWT authentication, full CRUD operations, search & filtering,
 and comprehensive test coverage.
 
-![CI](https://github.com/YOUR_USERNAME/movie-collection-api/actions/workflows/ci.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)
+![CI](https://github.com/BardeOrange/movie_catalog/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.13%2B-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-FREE-green)
 
 ---
 
-## ✨ Features
+## Features
 
 - **CRUD Operations** — Create, Read, Update, Delete movies
 - **JWT Authentication** — Secure endpoints with token-based auth
@@ -19,13 +19,13 @@ and comprehensive test coverage.
 - **Pagination** — Configurable skip/limit on list endpoints
 - **Input Validation** — Pydantic schemas with strict validation rules
 - **Auto-generated Docs** — Interactive Swagger UI & ReDoc
-- **Comprehensive Tests** — 25+ tests with pytest
+- **Comprehensive Tests** — 30 tests with pytest
 - **Docker Support** — Containerized with Docker & Docker Compose
 - **CI/CD Pipeline** — Automated testing with GitHub Actions
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -41,8 +41,10 @@ and comprehensive test coverage.
 
 ---
 
-## 📁 Project Structure
-movie-collection-api/
+## Project Structure
+
+```
+movie_collection_api/
 ├── app/
 │ ├── main.py # Application entry point
 │ ├── config.py # Environment configuration
@@ -72,23 +74,23 @@ movie-collection-api/
 ├── docker-compose.yml
 ├── requirements.txt
 └── .env
-
+```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.13+
 - pip
 
 ### Installation
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/movie-collection-api.git
-cd movie-collection-api
+git clone https://github.com/BardeOrange/movie_collection_api.git
+cd movie_catalog
 ```
 
 2. Create virtual environment

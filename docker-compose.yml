@@ -3,7 +3,7 @@ version: "3.8"
 services:
   api:
     build: .
-    container_name: movie-collection-api
+    container_name: movie_collection_api
     ports:
       - "8000:8000"
     volumes:

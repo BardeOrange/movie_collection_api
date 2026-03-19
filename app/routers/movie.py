@@ -1,7 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import Optional
-
 from app.database import get_db
 from app.schemas.movie import MovieCreate, MovieUpdate, MovieResponse
 from app.services import movie as movie_service
